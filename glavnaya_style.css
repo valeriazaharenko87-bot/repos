@@ -79,7 +79,7 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 15px;
-    background: linear-gradient(rgba(10,10,10,0.46), rgba(10,10,10,0.46)), url('фон для навигации.png') center/cover no-repeat;
+    background: linear-gradient(rgba(10,10,10,0.46), rgba(10,10,10,0.46)), url('images/фон для навигации.png') center/cover no-repeat;
     border: 3px solid #FF6200;
     border-radius: 14px;
     box-shadow: 0 0 30px rgba(255, 98, 0, 0.45);
@@ -190,7 +190,7 @@ nav a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('фон.png') center center / cover no-repeat;
+    background: url('images/фон.png') center center / cover no-repeat;
     z-index: 1;
     filter: brightness(0.85);
 }
@@ -351,7 +351,7 @@ nav a:hover {
 .bubble {
     position: absolute;
     bottom: -100px;
-    background: url('пуз.png') center/contain no-repeat;
+    background: url('images/пуз.png') center/contain no-repeat;
     opacity: 0.75;
     filter: drop-shadow(0 0 12px rgba(255,255,255,0.6));
     animation: float-up linear infinite;
@@ -587,7 +587,7 @@ nav a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('фон_2.png') center center / cover no-repeat;
+    background: url('images/фон_2.png') center center / cover no-repeat;
     z-index: 0;
     opacity: 0.3;
     pointer-events: none;
@@ -981,7 +981,7 @@ nav a:hover {
 .footer-bg {
     position: absolute;
     inset: 0;
-    background-image: url('футер.png');
+    background-image: url('images/футер.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
